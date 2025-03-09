@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI Praktikum</title>
+    <style>
+        body {
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: gray;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input, button, .output {
+            background-color: red;
+            color: white;
+            font-size: 16px;
+            border: none;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        input {
+            width: 200px;
+        }
+        .output {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <input type="text" id="nameInput" placeholder="Masukkan nama">
+        <button onclick="showMessage()">Submit</button>
+        <p class="output" id="outputLabel">OUTPUT</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            let name = document.getElementById("nameInput").value;
+            if (name.trim() !== "") {
+                document.getElementById("outputLabel").innerText = "Halo " + name;
+            } else {
+                document.getElementById("outputLabel").innerText = "OUTPUT";
+            }
+        }
+    </script>
+
+</body>
+</html>
