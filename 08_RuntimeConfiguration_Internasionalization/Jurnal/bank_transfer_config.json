@@ -1,0 +1,14 @@
+{
+    "lang": "id",
+    "transfer": {
+      "threshold": 20000000,
+      "low_fee": 5000,
+      "high_fee": 12000
+    },
+    "methods": ["SKN", "RTGS", "BI FAST", "Online Transfer"],
+    "confirmation": {
+      "en": "yes",
+      "id": "ya"
+    }
+  }
+  
