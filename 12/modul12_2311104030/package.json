@@ -1,0 +1,18 @@
+{
+  "name": "modul12_2311104030",
+  "version": "1.0.0",
+  "main": "gui.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
