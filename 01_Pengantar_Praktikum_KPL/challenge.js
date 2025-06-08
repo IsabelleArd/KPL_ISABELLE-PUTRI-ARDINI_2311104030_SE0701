@@ -23,3 +23,4 @@ input.question("Siapa nama kamu? " , (nama) => {
         })
     })
 })
+

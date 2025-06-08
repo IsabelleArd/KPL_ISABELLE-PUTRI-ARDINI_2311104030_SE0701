@@ -21,8 +21,6 @@ rl.question(`Berapa suhu badan anda saat ini? Dalam nilai ${config.satuan_suhu}:
 
         if (config.satuan_suhu.toLowerCase() === 'celcius') {
             suhuNormal = (suhu >= 36.5 && suhu <= 37.5);
-        } else if (config.satuan_suhu.toLowerCase() === 'fahrenheit') {
-            suhuNormal = (suhu >= 97.7 && suhu <= 99.5);
         }
 
         if (suhuNormal && hariDemam < config.batas_hari_deman) {
